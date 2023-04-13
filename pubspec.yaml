@@ -1,0 +1,35 @@
+name: pallet_mobile
+description: Palette is a mobile app for customers and service providers
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: ">=2.19.2 <3.0.0"
+
+dependencies:
+  another_flushbar: ^1.12.29
+  auto_route: ^5.0.1
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  flutter_hooks: ^0.18.6
+  flutter_pin_code_fields: ^2.1.0
+  flutter_svg: ^2.0.4
+  google_fonts: ^4.0.3
+  hooks_riverpod: ^2.3.2
+  intl: ^0.18.0
+  responsive_sizer: ^3.1.1
+
+dev_dependencies:
+  auto_route_generator: ^5.0.2
+  build_runner: ^2.2.1
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/svg/
+    - assets/png/

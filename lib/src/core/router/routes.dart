@@ -1,0 +1,12 @@
+export 'package:pallet_mobile/src/features/home/view/home.dart';
+export 'package:pallet_mobile/src/features/start_up/view/splash_screen.dart';
+export 'package:pallet_mobile/src/features/booking/view/booking.dart';
+export 'package:pallet_mobile/src/features/dashboard/view/dashboard.dart';
+export 'package:pallet_mobile/src/features/message/view/messages.dart';
+export 'package:pallet_mobile/src/features/post/view/post.dart';
+export 'package:pallet_mobile/src/features/profile/view/profile.dart';
+export 'package:pallet_mobile/src/features/auth/login/view/login.dart';
+export 'package:pallet_mobile/src/features/auth/sign_up/view/sign_up.dart';
+export 'package:pallet_mobile/src/features/auth/password/reset_password/view/reset_password.dart';
+export 'package:pallet_mobile/src/features/auth/password/new_password/view/new_password.dart';
+export 'package:pallet_mobile/src/features/auth/verification/view/otp_verification.dart';
